@@ -1,0 +1,40 @@
+# Repositorio remoto: https://github.com/albertguiteras/parcial-git.git
+    1  mkdir ex_2
+    2  cd ex_2
+    3  pwd
+    4  git init -b main
+    5  git config user.name "Albert Guiteras"
+    6  git config user.email "albertguiteras91@gmail.com"
+    7  git remote add origin https://github.com/albertguiteras/parcial-git.git
+    8  echo "Proyecto Parcial Git" > readme.txt
+    9  git status
+   10  git add readme.txt
+   11  git commit -m "docs: commit inicial con readme.txt"
+   12  git push -u origin main -f
+   13  git checkout -b desarrollo
+   14  echo "Archivo para la rama de desarrollo" > desarrollo.txt
+   15  git add desarrollo.txt
+   16  git commit -m "feat: crear archivo desarrollo.txt"
+   17  echo "Nueva funcionalidad agregada a desarrollo" >> desarrollo.txt
+   18  git add desarrollo.txt
+   19  git commit -m "update: añadido contenido a desarrollo.txt"
+   20  git diff main..desarrollo
+   21  git push -u origin desarrollo
+   22  git checkout main
+   23  git checkout -b feature-login
+   24  echo "Modulo de autenticacion y login" > login.txt
+   25  git add login.txt
+   26  git commit -m "feat: anadido modulo de login"
+   27  git log --all --graph --oneline --decorate
+   28  git checkout main
+   29  git merge desarrollo -m "merge: fusionar rama desarrollo en main"
+   30  git merge feature-login -m "merge: fusionar rama feature-login en main"
+   31  git push origin main
+   32  git branch -d desarrollo
+   33  git branch -d feature-login
+   34  git push origin --delete desarrollo
+   35  git branch -a
+   36  git log > albertguiteras_gitlog.txt
+   37  git log --oneline > albertguiteras_gitlog_oneline.txt
+   38  echo "# Repositorio remoto: https://github.com/albertguiteras/parcial-git.git" > albertguiteras_historial.txt
+   39  history >> albertguiteras_historial.txt

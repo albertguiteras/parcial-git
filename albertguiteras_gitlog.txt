@@ -1,0 +1,30 @@
+commit 5f9301af6a64d4663e1e5530cb6ad0c8df65ad5f
+Merge: 7101c85 44d8145
+Author: Albert Guiteras <albertguiteras91@gmail.com>
+Date:   Mon Nov 2 00:22:48 2026 +0100
+
+    merge: fusionar rama feature-login en main
+
+commit 44d81451cb7dcd30241a21df111d2bd9a5a78033
+Author: Albert Guiteras <albertguiteras91@gmail.com>
+Date:   Mon Nov 2 00:21:58 2026 +0100
+
+    feat: anadido modulo de login
+
+commit 7101c85fd8bf8746f024ad1ff6034488273922dc
+Author: Albert Guiteras <albertguiteras91@gmail.com>
+Date:   Mon Nov 2 00:20:54 2026 +0100
+
+    update: añadido contenido a desarrollo.txt
+
+commit e6eeeed12bf8af6c86f263920ca32e79bed5a04d
+Author: Albert Guiteras <albertguiteras91@gmail.com>
+Date:   Mon Nov 2 00:20:27 2026 +0100
+
+    feat: crear archivo desarrollo.txt
+
+commit ced79d6385c3de85bec421d1593e6edda72a5247
+Author: Albert Guiteras <albertguiteras91@gmail.com>
+Date:   Mon Nov 2 00:19:57 2026 +0100
+
+    docs: commit inicial con readme.txt
